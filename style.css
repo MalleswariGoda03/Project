@@ -1,0 +1,70 @@
+/* Apply basic styles to the whole body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* Heading style */
+h1 {
+    font-size: 2.5em;
+    color: #2c3e50;
+    margin-top: 30px;
+}
+
+/* Style for the main description paragraph */
+body > p:first-of-type {
+    font-size: 1.2em;
+    color: #555;
+    margin: 20px auto;
+    max-width: 600px;
+}
+
+/* Image styling */
+img {
+    display: block;
+    margin: 20px auto;
+    max-width: 90%;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* Style for the website paragraph */
+body > p:last-of-type {
+    font-size: 1.1em;
+    margin-top: 15px;
+    color: #333;
+}
+
+/* Style for the anchor link inside the paragraph */
+a {
+    color: #007BFF;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Button styling */
+button {
+    margin-top: 30px;
+    padding: 10px 20px;
+    font-size: 1em;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+
+
+
